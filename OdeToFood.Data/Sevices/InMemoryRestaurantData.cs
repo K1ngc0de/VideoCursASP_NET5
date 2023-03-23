@@ -14,7 +14,7 @@ namespace OdeToFood.Data.Sevices
             {
                 new Restaurant() {ID = 1, Name = "Pitta", Cuisine = CuisineType.Italian},
                 new Restaurant() {ID = 2, Name = "Napoleon", Cuisine = CuisineType.French},
-                new Restaurant() {ID = 3, Name = "Pitta", Cuisine = CuisineType.Indian}
+                new Restaurant() {ID = 3, Name = "Elef", Cuisine = CuisineType.Indian}
             };
         }
         public IEnumerable<Restaurant> GetAll()
