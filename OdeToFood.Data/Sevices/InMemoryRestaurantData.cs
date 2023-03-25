@@ -12,11 +12,10 @@ namespace OdeToFood.Data.Sevices
         {
             restaurants = new List<Restaurant>()
             {
-                new Restaurant() {ID = 1, Name = "Pitta", Cuisine = CuisineType.Italian},
-                new Restaurant() {ID = 2, Name = "Napoleon", Cuisine = CuisineType.French},
-                new Restaurant() {ID = 3, Name = "Elef", Cuisine = CuisineType.Indian},
-                new Restaurant() {ID = 4, Name = "Bear", Cuisine = CuisineType.Russian}
-
+                new Restaurant() {ID = 1, StarMishlen = "Yes", Name = "Pitta", Cuisine = CuisineType.Italian},
+                new Restaurant() {ID = 2, StarMishlen = "No", Name = "Napoleon", Cuisine = CuisineType.French},
+                new Restaurant() {ID = 3, StarMishlen = "No", Name = "Elef", Cuisine = CuisineType.Indian},
+                new Restaurant() {ID = 4, StarMishlen = "Yes", Name = "Bear", Cuisine = CuisineType.Russian}
             };
         }
 
