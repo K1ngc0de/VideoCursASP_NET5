@@ -8,8 +8,8 @@ using System.Threading.Tasks;
 
 namespace OdeToFood.Data.Sevices
 {
-    internal class OdeToFoodDbContext : DbContext
+    public class OdeToFoodDbContext : DbContext
     {
-        public DbSet<Restaurant> Restaurant {get;set;}  
+        public DbSet<Restaurant> Restaurants {get;set;}  
     }
 }

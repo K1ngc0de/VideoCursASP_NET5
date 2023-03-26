@@ -104,6 +104,7 @@
     <Compile Include="Sevices\InMemoryRestaurantData.cs" />
     <Compile Include="Sevices\IRestaurantData.cs" />
     <Compile Include="Sevices\OdeToFoodDbContext.cs" />
+    <Compile Include="Sevices\SqlRestaurantData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
