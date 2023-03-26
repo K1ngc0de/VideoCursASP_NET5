@@ -103,6 +103,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sevices\InMemoryRestaurantData.cs" />
     <Compile Include="Sevices\IRestaurantData.cs" />
+    <Compile Include="Sevices\OdeToFoodDbContext.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
