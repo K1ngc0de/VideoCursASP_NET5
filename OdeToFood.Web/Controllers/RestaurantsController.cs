@@ -45,7 +45,20 @@ namespace OdeToFood.Web.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(Restaurant restaurant) 
         {
-            db.Add(restaurant);
+           if (String.IsNullOrEmpty(restaurant.Name))
+            {
+                ModelState.AddModelError(nameof(restaurant.Name), "The name is required");
+            }
+            if (String.IsNullOrEmpty(restaurant.StarMishlen))
+            {
+                ModelState.AddModelError(nameof(restaurant.StarMishlen), "This field is required");
+            }
+
+            if (ModelState.IsValid)
+            {
+                db.Add(restaurant);
+                return View();
+            }
             return View();
         }
     }
